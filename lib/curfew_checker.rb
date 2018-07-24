@@ -23,7 +23,13 @@ def complex_curfew_checker(time)
 end
 
 def deluxe_curfew_checker(time)
-  # code goes here
+  if time == 11
+    return "Time to apparate!"
+  elsif time > 11
+    return "You're in trouble! Better get home quick!"
+  else
+    timeLeft = 11-time
+    return "You have #{timeLeft} hour(s) left to keep having fun!"
 end
 
 def platinum_curfew_checker(current_time, curfew_time)
