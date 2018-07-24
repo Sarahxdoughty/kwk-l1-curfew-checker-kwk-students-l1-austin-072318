@@ -30,6 +30,7 @@ def deluxe_curfew_checker(time)
   else
     timeLeft = 11-time
     return "You have #{timeLeft} hour(s) left to keep having fun!"
+  end
 end
 
 def platinum_curfew_checker(current_time, curfew_time)
