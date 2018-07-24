@@ -9,6 +9,7 @@ def curfew_checker(time)
     return "You're in trouble! Better get home quick!"
   else
     return "Keep having fun!"
+  end
 end
 
 def complex_curfew_checker(time)
